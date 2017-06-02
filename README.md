@@ -6,7 +6,7 @@ Use the arrow keys to fly your Ship around the world to blast away the enemy Shi
 Arrow keys - Move <br />
 Holding 'C' - Automatic Weapon <br />
 1 key - Original Birds Eye View <br />
-2 key - Behing the Ship View <br />
+2 key - Behind the Ship View <br />
 F5 - Restart game <br />
 
 Christopher Zelenka <br />
