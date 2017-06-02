@@ -305,6 +305,7 @@ function spawnBuilding() {
 
 function main(){
 	var div = document.getElementById("points");
+	var gameOver = document.getElementById('gameover');
 
 	//THREE.JS setup
 	var camera = new THREE.PerspectiveCamera( 45, 480/854, 1, 10000 );	
@@ -388,7 +389,7 @@ function main(){
 			if (enemies[i].AABB.collides(player1.AABB)){
 				//console.log("DEATH");
 				alive = false;
-				div.textContent = "Points: " + points + "   GAME OVER";
+				gameOver.textContent = 'GAME OVER';
 				continue;
 			}
 			
